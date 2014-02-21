@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content = "text/html; charset=utf-8"/> 
+
+	<!--
+	- child of head, shild because nested inside the head tags
+meta element or meta tag a self closing tag. We are using to describe to the browser which types of characters we will be using
+the things inside are attributes
+-->
+
+	<title>Smells Like Bakin' Cupcake Company</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+
+<!-- rel=(relative) and type tells the browser it's a css stylesheet 
+media attribute is for screens
+href attribute tells the browser where the stylesheet is located
+-->
+	<link rel="stylesheet" type="text/css" href="css/grid.css" media="screen">
+
+	<!--important to put after normalize, because of the cascading nature-->
+	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+	<!--taken from google.com/webfonts -->
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	<!--important to put it after the font link-->
+</head>
+
+<body>
+	<div class="container clearfix"> <!-- a wrapper or container div which contains our page; in our grid.css we already have this class and it's aligned to 1000 px , so the text will be idented identically from both sides
+	clearfix will fix a lot of cross browser layout problems-->
+		<div class="grid_4">
+			<img src="img/logo.gif" alt="Smells Like Bakin">
+		</div>
+		
+		<!-- 
+		src - source pointing to the location of the image file
+		alt - alternet attribute which will be for other browsers or impaired people, so they see the text
+	  -->
+	  <div class="grid_8 omega"> <!--two classes can be added, inside the quotes with a space in between -->
+		  <ul class="nav">
+		  	<li><a href="#">About</a></li>
+		  	<li><a href="#">Cupcakes &amp Prices</a></li>
+		  	<li><a href="#">Locations</a></li>
+		  	<li class="last"><a href="#">Contact Us</a></li>
+		  </ul>
+	  </div>
+
+	  <div id="intro" class="grid_9">
+	  	<h1>Opposites really do attract, especially in our kitchen! We combine unexpected flavors that melt together to create ironically delicious desserts.</h1>
+	  	<p><a href="#" class="btn">Browse Our Cupcakes</a></p>
+	  </div>
+
+	  <!--
+	  div divides baisc sections and allows to style one by one
+	  -->
+	  <div class="grid_3 omega">
+	  	<img src="img/you-bake-me-blush.gif" alt="You Bake Me Blush">
+	  </div>
+
+	  <div id="featured-cupcake" class="grid_7">
+	  	<h2>Cupcake of the Week</h2>
+	  	<p>This week's featured cupcake is the <a href="#">Avocado Chocolate cupcake</a>. Its strange combo of flavors will kick your taste buds into fiesta mode!</p>
+	  	<img src="img/featured-cupcake.jpg" alt="Avocado Chocolate Cupcake">
+	  </div>
+
+	  <div id="new-cupcakes" class="grid_5 omega">
+	  	<h2>Fresh Out the Oven</h2>
+	  	<p>Our newest cupcakes are <a href="#">Bacon Me Crazy</a> and <a href="#">Jalapeno So Spicy</a></p>
+	  	<img src="img/new-cupcake-bacon.jpg" alt="Bacon Me Crazy">
+	  	<img src="img/new-cupcake-jalapeno.jpg" alt="Jalapeno So Spicy ">
+	  </div>
+
+	  <div class="grid_7">
+		  <h2>Inside the Kitchen</h2>
+		  <p>Smells Like Bakin' started out in the garage of the husband wife duo Allison &amp Joseph. Allison is the baker, and Joseph found a way for them to make a business out of her tasty treats. Flash toward to today and they have a successful store front, catering business and cupcake truck</p>
+
+		  <!-- &amp:  its called an html entity for typing a particular character and display it on the user's screen, but it might be a special symbol of html, so we would need to escape it. Html entities are always started with & and end with :, however in my browser I didn't need the ending with the colon  
+		  amp = & -->
+
+		  <p><a href="#" class="btn-small">Read More</a></p>
+	  </div>
+
+	  <div class="grid_5 omega">
+		  <h2>Get Bakin' with Us</h2>
+
+		  <div id="contact">
+		  	<p>Call Us: <span>1-555-CUP-CAKE</span><br>
+		  	Email us:<a href="#">bakeon@smellslikebakin.com</a></p>
+		  </div>
+
+
+	  <!-- span - it's a container for an inline element. because we don't want it to be a block levele lement which will push all the reset down, but be an inline with the rest of text
+	  br - breaks us down to the next line/new line so email us and call us are on differen lines, another way is creatuing a second paragraph -->
+
+		  <p>We announce all of our new flavors first through Facebook &amp Twitter, and even take requests!</p>
+		 	<a href="http://www.facebook.com/SmellsLikeBakin"><img src="img/facebook.gif" alt="Facebook"></a>
+		 	<a href="http://www.twitter.com/#!/slikebakin"><img src="img/twitter.gif" alt="Twitter"></a>
+	 	</div>
+
+	 	<div id="copyright" class="grid_12">
+	 		<p>&copy 2012 Smells Like Bakin' Cupcake Company. All Rights Reserved</p>
+	 		
+	 	</div>
+
+	<!-- &copy = c in the circle -->
+
+</div>
+</body>
+
+</html>
+
+
+<!-- using css.normalize because we know it's more battle tested and more reliable
+browsers might create default styling and each browser may create it's own. We would like to get rid of that for creating the cross browser compatibility - called reset, to make sure the website looks the same for all browsers.
+a link element allows us to share resources of one with another
+
+grid system - helps to layout our page quickly, another advantage to create the design which will look professional
+a grid is a common feature of many CSS frameworks
