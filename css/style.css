@@ -137,6 +137,14 @@ ul.nav li a {
 	text-align: center; 
 }
 
+.list {
+	list-style: none;
+}
+
+.block-space {
+	margin-bottom: 60px;
+}
+
 
 
 
