@@ -1,0 +1,168 @@
+
+  500  git clone https://github.com/git/git
+  501  which git
+  502  git//version
+  503  git --version
+  504  git clone https://github.com/git/git
+  505  git config --global user.name "Fatima Khalilova"
+  506  git config --global user.email "fatimakhalilova@gmail.com"
+  507  mkdir desktop/week_7_my_website
+  508  cd desktop/week_7_my_website
+  509  ~
+  510  cd~
+  511  ~cd
+  512  cd ~
+  513  cd desktop/"my-first-website"
+  514  git init
+  515  mkdir css
+  516  ls
+  517  mkdir images
+  518  cd css
+  519  git init
+  520  git status
+  521  git add css
+  522  pwd
+  523  cd..
+  524  cd ..
+  525  cd desktop
+  526  cd ~
+  527  cd my-first-website
+  528  cd desktop/"my-first-website"
+  529  mkdir css
+  530  git add "css"
+  531  git status
+  532  cp desktop/treehouse_tutorial_week_7 desktop/"my-first-website"
+  533  cp desktop/treehouse_tutorial_week_7/"index2.html" desktop/"my-first-website"
+  534  cp desktop/treehouse_tutorial_week_7/"index2.html" .
+  535  cp desktop/index2.html .
+  536  cd desktop
+  537  cd..
+  538  cd ..
+  539  index2.html desktop/"my-first-website"
+  540  "index2.html" desktop/"my-first-website"
+  541  cp index2.html desktop/"my-first-website"
+  542  cp index2.html ~/desktop/"my-first-website"
+  543  cd desktop/"my-first-website"
+  544  cd "my-first-website"
+  545  ls
+  546  git add "index2.html"
+  547  git status
+  548  commit -m"Added html file from the 'Get Bakin' for editing"
+  549  git commit -m"Added html file from the 'Get Bakin' for editing"
+  550  git status
+  551  cp desktop/treehouse_tutorial_week_7/css .
+  552  cp treehouse_tutorial_week_7/css .
+  553  cd ..
+  554  cp treehouse_tutorial_week_7/css ~/desktop/"my-first-website"
+  555  cp -R treehouse_tutorial_week_7/css ~/desktop/"my-first-website"
+  556  cd ..
+  557  cd "my-first-website"
+  558* 
+  559  ls
+  560  git add css
+  561  git status
+  562  git commit -m"Added the original css directory"
+  563* g
+  564  git pull origin master
+  565  git remote add origin https://github.com/timoshka88/my-first-website.git
+  566  git push -u origin master
+  567  git push -u origin master
+  568  mkdir images
+  569  cd ..
+  570  mv PocketGopher_print.png ~/desktop/"my-first-website"/images
+  571  cd "my-first-websites"
+  572  cd "my-first-website"
+  573  add images
+  574  git add images
+  575  git commit -m"Added a directory which will hold images"
+  576  cd images
+  577  git add "PocketGopher_print.png"
+  578  git commit -m"Added the logo Pocket Gopher into images directory"
+  579  git push
+  580  cd ..
+  581  git add "index2.html"
+  582  git commit -m"Added the logo of Pcket Gopher to the top of the HTML page"
+  583  git pull origin master
+  584  git oush origin master
+  585  git push origin master
+  586  git add "index2.html"
+  587  git commit -m"Changed all the bakery pictures to my own"
+  588  git pull origin master
+  589  git push origin master
+  590  git add "index2.html"
+  591  git commit -m"Changed the text of intro, and the elements from h1 to p"
+  592  git status
+  593  git push origin master
+  594  git add "index2.html"
+  595  git commit -m"Edited the left paragraph, which used to be the Avocado cupcake. And changed the alternative text attribute of the img attribute"
+  596  git push origin master
+  597  git add "index2.html"
+  598  git commit -m"Edited the text on the right side. Changed the positioning of the p elements and img elements"
+  599  git push origin master
+  600  git add "index2.html"
+  601  git commit -m"Changed the nav barnames, edited the 'a' element of each nav bar element. Changed the title in the head to 'A little bit about me'. "
+  602  git push origin master
+  603  git add "index2.html"
+  604  git commit -m"Edited the two 'div' element Inside my Kitchen and Contact me. Changed the text, updated contact information. Changed the copyright text"
+  605  git push origin master
+  606  git status
+  607  git add "index2.html"
+  608  git commit -m"Changed the logo inline styling. Created a new class for the logo:pg-logo. Changed the alternative text for the logo. Changed the inline styling of the navigation bar"
+  609  cd css
+  610  git status
+  611  cd ..
+  612  git push origin master
+  613  git add "index2.html"
+  614  git commit -m"Changed the position of the button 'Check my happy FB page" - gave a bit more space in between the text and button. Edited the text and added the author's name"
+
+
+  615  git commit -m"Changed the position of the button (Check my happy FB page): gave a bit more space in between the text and button. Edited the text and added the author's name"
+  616  git push origin master
+  617  git status
+  618  git add "index2.html"
+  619  git commit -m"Changed the ids of the two paragraphs with pictures (from cupcakes to hobby and fun facts). Changed the positiong of text and pictures. Changed the positioning of the Fun facts header, so it will be centered more in the middle."
+  620  git push origin master
+  621  git status
+  622  git add "index2.html"
+  623  git commit -m"Deleted all the comments from the previous exercises. Added a class for the h2 element (class center title) for centering headers.Changed  id from Inside the Kitchen to About-me. Changed places in the Contact me of FB logo and the text. Added some padding to the Contact me container, for editing the positioning"
+  624  git status
+  625  git push origin master
+  626  git status
+  627  git add css/img/background_sunset.jpg
+  628  git commit-m"Added a potential picture for background to the css-->images folder"
+  629  git commit -m"Added a potential picture for background to the css-->images folder"
+  630  git status
+  631  git push origin master
+  632  git status
+  633  git add "index2.html"
+  634  git commit -m"Changed the background, font style and font colors. Changed the FB logo"
+  635  git status
+  636  git add css/img/background_sunset_edited.png
+  637  git commit -m"Added an edited background picture(more transparent)"
+  638  git add img/facebook_logo_small.png
+  639  git commit -m"Added another FB logo to change the old one"
+  640  git status
+  641  git add css/img/background_sunset.jpg
+  642  git commit -m"Modified background picture"
+  643  git status
+  644  git push origin master
+  645  git push origin master
+  646  git add css/style.css
+  647  git add -fcss/style.css
+  648  git add -f
+  649  git add -f css/style.css
+  650  git add css/style.css
+  651  git status
+  652  git commit -m"Updated CSS file withe changes including fint styling, size, background, margins, positioning"
+  653  git push origin master
+  654  git status
+  655  git add css/hover.css
+  656  git commit -m"Added a css file for various button hover effects"
+  657  git add "index2.html"
+  658  git commit -m"Added a class to the button for a new hover effect. Added the link to the css/hover.css file in the head"
+  659  git status
+  660  git add css/style.css
+  661  git commit -m"Changed the color of the btn:hover selector"
+  662  git status
+  663  git push origin master
+  664  history >> history_cmd
