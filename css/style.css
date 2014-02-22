@@ -20,6 +20,7 @@ a {
 
 }
 
+
 h1 {
 	font-size: 1.750em;
 	letter-spacing: -1.5px;
@@ -40,7 +41,6 @@ h2 {
 .btn {
 	color: #FFFFFF;
 	background: #FF4500;
-	 /*#4FB69F url('img/texture.png') repeat*/
 	padding: 15px 30px; 
 	margin: 40px 0px;
 	border-radius: 25px; 
@@ -49,8 +49,9 @@ h2 {
 
 
 .btn:hover {
-	background-color: #4CC4A7
+	background-color: #4169E1;
 }
+
 
 .separator {
 	margin-top: 40px;
