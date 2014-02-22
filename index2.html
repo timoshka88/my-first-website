@@ -3,19 +3,12 @@
 <head>
 	<meta http-equiv="Content-Type" content = "text/html; charset=utf-8"/> 
 
-	<!--
-	- child of head, shild because nested inside the head tags
-meta element or meta tag a self closing tag. We are using to describe to the browser which types of characters we will be using
-the things inside are attributes
--->
+
 
 	<title>A Little Bit About Me</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
 
-<!-- rel=(relative) and type tells the browser it's a css stylesheet 
-media attribute is for screens
-href attribute tells the browser where the stylesheet is located
--->
+
 	<link rel="stylesheet" type="text/css" href="css/grid.css" media="screen">
 
 	<!--important to put after normalize, because of the cascading nature-->
@@ -26,17 +19,12 @@ href attribute tells the browser where the stylesheet is located
 </head>
 
 <body>
-	<div class="container clearfix"> <!-- a wrapper or container div which contains our page; in our grid.css we already have this class and it's aligned to 1000 px , so the text will be idented identically from both sides
-	clearfix will fix a lot of cross browser layout problems-->
+	<div class="container clearfix"> 
 		<div class="pg-logo">
 			<img src="img/PocketGopher_print.png" alt="PocketGopher logo">
 		</div>
 		
-		<!-- 
-		src - source pointing to the location of the image file
-		alt - alternet attribute which will be for other browsers or impaired people, so they see the text
-	  -->
-	  <div > <!--two classes can be added, inside the quotes with a space in between -->
+	  <div > 
 		  <ul class="nav">
 		  	<li class="first"><a href="#intro">My Current Life Slogan</a></li>
 		  	<li><a href="#featured-cupcake">Some Facts</a></li>
@@ -54,9 +42,7 @@ href attribute tells the browser where the stylesheet is located
 	  	<p class="separator"><a href="www.facebook.com/fatima.khalilova" class="btn">Check my Happy FB Page</a></p>
 	  </div>
 
-	  <!--
-	  div divides baisc sections and allows to style one by one
-	  -->
+	 
 	  <div class="grid_3 omega">
 	  	<img src="img/2013-10-27 21.53.53.jpg" alt="You Bake Me Blush">
 	  </div>
@@ -75,28 +61,23 @@ href attribute tells the browser where the stylesheet is located
 	  	<img src="img/2014-01-26 21.09.45.jpg" alt="With a Stingray in Cayman Islands">
 	  </div>
 
-	  <div id="about-me"class="grid_7">
+	  <div id="about-me" class="grid_7">
 		  <h2>Inside my 'Kitchen'</h2>
 		  <p>I love building things, I love creating things. I love working with people and brainstorming on a new project, writing down the plan. Even when the project takes all of my time, and has the frustrating and happy moments...I feel thrilled thinking about the end result and incredibly happy when it is achieved. I love to see the result of my team's work. I feel so happy and proud to be part of the work...Feel so lucky and happy to be part of the team. And recently I thought why not try building my own e-company? And than came DBC. And than I met my wonderful cohort. Every person is unique, every person has a great idea. And I am sure I will not only get the dev skills, but find new friends and, perhaps, become a part of the next Awesome startup </p>
 
-		  <!-- &amp:  its called an html entity for typing a particular character and display it on the user's screen, but it might be a special symbol of html, so we would need to escape it. Html entities are always started with & and end with :, however in my browser I didn't need the ending with the colon  
-		  amp = & -->
+		
 	  </div>
 
 	  <div class="grid_5 omega">
-		  <h2>Contact me</h2>
+		  <h2 class="center-title">Contact me</h2>
 
 		  <div id="contact">
 		  	<p>Skype me: <span>fatima.khalilova1</span><br>
 		  	Email me:<a href="mailto:fatimakhalilova@gmail.com">fatimakhalilova@gmail.com</a></p>
+		  	<p><a href="www.facebook.com/fatima.khalilova"><img src="img/facebook.gif" alt="Facebook"></a>Or add me on Facebook!</p>
 		  </div>
 
-
-	  <!-- span - it's a container for an inline element. because we don't want it to be a block levele lement which will push all the reset down, but be an inline with the rest of text
-	  br - breaks us down to the next line/new line so email us and call us are on differen lines, another way is creatuing a second paragraph -->
-
-		  <p>Or add me on Facebook!</p>
-		 	<a href="www.facebook.com/fatima.khalilova"><img src="img/facebook.gif" alt="Facebook"></a>
+		  
 	 	</div>
 
 	 	<div id="copyright" class="grid_12">
@@ -104,7 +85,6 @@ href attribute tells the browser where the stylesheet is located
 	 		
 	 	</div>
 
-	<!-- &copy = c in the circle -->
 
 </div>
 </body>
@@ -112,9 +92,3 @@ href attribute tells the browser where the stylesheet is located
 </html>
 
 
-<!-- using css.normalize because we know it's more battle tested and more reliable
-browsers might create default styling and each browser may create it's own. We would like to get rid of that for creating the cross browser compatibility - called reset, to make sure the website looks the same for all browsers.
-a link element allows us to share resources of one with another
-
-grid system - helps to layout our page quickly, another advantage to create the design which will look professional
-a grid is a common feature of many CSS frameworks
