@@ -166,3 +166,19 @@
   662  git status
   663  git push origin master
   664  history >> history_cmd
+  git status
+  665  git add "index2.html"
+  666  git commit -m"Added another div block for the Portfolio links"
+  667  git add css/style.css
+  668  git commit -m"added a styling to the Portfolio block, spacing between two blocks - Portfolio and Contact me"
+  669  git add "index2.html"
+  670  git commit -m"Changed the navigation bar, so that it has a Portfolio tab and the link leads to the bottom of the page"
+  671  git status
+  672  git push origin master
+  673  git status
+  674  git status
+  675  git add "index2.html"
+  676  git commit -m"Edited the links in the Portfolio section"
+  677  git push origin master
+  578  history
+
